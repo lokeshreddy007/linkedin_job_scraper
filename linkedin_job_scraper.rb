@@ -31,7 +31,8 @@ def scraper
         }
         jobs << job
         puts "#{job[:title]} "
-        puts "Of Company #{job[:company]} in Location #{job[:location]}"
+        puts "Company: #{job[:company]}"
+        puts "Location: #{job[:location]}"
         puts ""
         puts job[:url].colorize(:light_blue )
         puts ""

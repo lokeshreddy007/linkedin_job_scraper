@@ -5,12 +5,14 @@ Linkedin Jobs Scraper to view jobs posted in Linkedin from Terminal
 ## Usage
 
 ```ruby
+# clone this repo and use below command to install required dependencies
+bundle install
 
-ruby linkedin_job_scraper.rb "Job Title"  "Place/Contry"
+# Run the script
+ruby linkedin_job_scraper.rb Ruby Germany
 
 #Example
-
-ruby linkedin_job_scraper.rb Ruby Germany
+ruby linkedin_job_scraper.rb "Job Title"  "Place/Contry"
 
 ```
 
