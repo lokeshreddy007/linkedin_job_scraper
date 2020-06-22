@@ -30,7 +30,7 @@ def scraper
             url: job_listing.css('a')[0].attributes['href'].value
         }
         jobs << job
-        puts "#{job[:title]} "
+        puts "Role: #{job[:title]} "
         puts "Company: #{job[:company]}"
         puts "Location: #{job[:location]}"
         puts ""
