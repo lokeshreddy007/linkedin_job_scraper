@@ -11,7 +11,7 @@ def scraper
     parsed_page = Nokogiri::HTML(unparsed_page)
     puts ""
     puts ""
-    # Getting Result 1,000+ Results for "React in Secunderābād, Telangana, India"(48 new)
+    # Getting Result 1,000+ Results for "user entered location"
     total_jobs = parsed_page.css('span.results-context-header__job-count').text
     query_result_info = parsed_page.css('span.results-context-header__query-search').text
     new_jobs = parsed_page.css('span.results-context-header__new-jobs').text
